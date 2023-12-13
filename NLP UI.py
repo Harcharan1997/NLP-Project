@@ -17,7 +17,6 @@ MODEL = "cardiffnlp/twitter-roberta-base-sentiment"
 tokenizer = AutoTokenizer.from_pretrained(MODEL)
 model = TFAutoModelForSequenceClassification.from_pretrained(MODEL)
 
-# Your existing code here...
 
 # Function to perform sentiment analysis using RoBERTa
 def polarity_scores_roberta(example):
