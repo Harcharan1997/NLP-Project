@@ -48,7 +48,7 @@ def update_results_text():
     results_text.delete(1.0, tk.END)  # Clear previous results
     results_text.insert(tk.END, "Results:\n\n")
     
-    # Your existing code to get and display results here...
+
     
     # Display results in the text widget
     results_text.insert(tk.END, "Example Result:\n")
